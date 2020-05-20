@@ -1,11 +1,13 @@
 body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   text-align: center;
 }
 
-#biglietto {
+h2 {
   color: blue;
-  border: 1px solid blue;
 }
-#errore {
+h3 {
   color: red;
 }
