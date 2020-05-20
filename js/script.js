@@ -23,7 +23,7 @@ var costoBiglietto;
 
 // Creo le istruzioni condizionali
 if (eta < 18) {
-  prezzoTotaleViaggio = Math.floor((prezzoUnder18 * numeroKm)*10)/10;
+  prezzoTotaleViaggio = Math.floor((prezzoUnder18 * numeroKm)*10)/10; // arrotondo al primo decimale
   costoBiglietto = 'Il prezzo del biglietto è ' + prezzoTotaleViaggio + ' Euro';
   document.getElementById('biglietto').innerHTML = costoBiglietto;
 }
