@@ -8,7 +8,7 @@ var eta = parseInt(prompt('Età passeggero?'));
 
 // Verifico i dati inseriti dall utente
 if ( isNaN(numeroKm) || isNaN(eta) )  {
-  document.getElementById('errore').innerHTML = "Devi inserire numeri interi"
+  document.getElementById('errore').innerHTML = "Devi inserire numeri interi";
 }
 
 // Creo differenti tipologie di prezzo/km in base all Età
